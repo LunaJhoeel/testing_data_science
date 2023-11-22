@@ -8,6 +8,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 ## Ejecutar scripts
+diferencias_np_pd.py
+
 python generator.py
 
 ### Manual Testing*
@@ -18,3 +20,6 @@ python ejm_unittest.py
 pytest ejm_pytest.py
 pytest ejm_hypothesis.py
 pytest ejm_hypothesis_nan.py
+
+python ejm_pydantic.py
+python ejm_pandera.py
